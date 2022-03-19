@@ -1,0 +1,84 @@
+.search {
+    padding: 20px;
+    height: 900px;
+    width: 480px;
+    background: linear-gradient(to right, #bbd2c525, #53697625), url(https://cdn.pixabay.com/photo/2020/09/26/07/05/sea-5603351_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    margin: 50px auto;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.display form {
+    padding-bottom: 70px;
+}
+
+.search__text {
+    background-color: #00000066;
+    padding: 40px;
+}
+
+.searcher {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    
+}
+
+.fa-cloud {
+    color: #fff;
+    padding: 0 100px;
+}
+
+.search__title {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.search__date {
+    color: #fff;
+    font-size: 25px;
+    font-family: Georgia;
+}
+
+.search__actual-weather {
+    color: #fff;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.search__cloud {
+    color: #fff;
+    font-weight: 900;
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search__weather {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia;
+}
+
+@media screen and (max-width: 450px) {
+    .search {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
