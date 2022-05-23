@@ -2,7 +2,7 @@ import React, { useState, useEffect} from "react";
 import './SearchW.css';
 
 const SearchW = () => {
-    const [search, setSearch] = useState ("florencio varela");
+    const [search, setSearch] = useState ("new york");
     const [data, setData] = useState([]);
     const [input, setInput] = useState("");
     const [component, setComponent] = useState(true);
