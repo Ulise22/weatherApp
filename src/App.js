@@ -1,4 +1,5 @@
 import SearchW from './Component/SearchW';
+import './App.css'
 
 function App() {
   return (

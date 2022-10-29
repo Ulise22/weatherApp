@@ -1,0 +1,13 @@
+.app {
+    background-image: linear-gradient(to right, #bbd2c525, #53697625), url(./Images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media(min-height: 690px){
+    .app {
+        height: 100vh;
+    }
+}

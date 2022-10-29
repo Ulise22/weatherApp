@@ -1,15 +1,3 @@
-.search {
-    padding: 20px;
-    height: 900px;
-    width: 480px;
-    background: linear-gradient(to right, #bbd2c525, #53697625), url(https://cdn.pixabay.com/photo/2020/09/26/07/05/sea-5603351_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-    margin: 50px auto;
-}
-
 .display {
     display: flex;
     flex-direction: column;
@@ -76,9 +64,24 @@
 }
 
 @media screen and (max-width: 450px) {
-    .search {
-        width: 100%;
-        margin: 0;
+    .display {
+        width: 85%;
+        margin: auto;
+    }
+
+    .search__text {
+        padding: 20px;
+        width: 85%;
+    }
+
+    .search__actual-weather {
+        font-size: 38px;
+    }
+
+    .fa-cloud {
+        text-align: center;
         padding: 0;
+        display: flex;
+        justify-content: center;
     }
 }
